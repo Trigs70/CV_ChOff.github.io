@@ -1,0 +1,30 @@
+/* @import url('https://fonts.googleapis.com/css?family=Roboto|Roboto+Slab'); */
+body {
+  font-family: Roboto, Sans-serif;
+}
+
+form {
+	width: 350px;
+	margin: 0 auto;
+}
+* {
+	box-sizing: border-box;
+}
+input[type=text], button, textarea {
+	width: 100%;
+}
+input, button, textarea {
+	font-size: 1.2em;  
+  background-color: transparent;
+  border: solid 1px rgb(119, 119, 204);
+}
+input, textarea {
+	margin-bottom: 5px;
+}
+button {
+  padding: 2px;
+}
+label[required]::after {
+  content: " *";
+  color: Red;
+}

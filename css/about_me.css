@@ -1,0 +1,27 @@
+ body {
+  background-color: rgb(209, 232, 245);
+  font-family: Arial;
+ }
+ 
+
+
+
+
+  
+
+  .main__contacts {
+    /* display: flex; */
+    /* justify-content: flex-start; */
+    text-align: center;
+  } 
+
+  
+
+  #documents {
+    text-align: center;
+  }
+
+  #contactme {
+    text-align: left;
+  }
+ 

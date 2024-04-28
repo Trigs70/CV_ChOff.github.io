@@ -1,0 +1,26 @@
+.col-7 .col-5 .col-6{
+    display: flex;
+}
+/* .foto img{
+    width: 380px;
+} */
+/* img[hidden] {
+    display: none;
+  } */
+@media only screen and (max-width: 810px) {
+     .col-7 .col-5 .col-6{
+      width: 25%;
+      display: block;
+      height: 10%;
+      margin-top: 10px;
+}
+    .row align-items-center{
+        /* display: block; */
+        margin: left 10px;
+  }
+  
+  img[hidden]{
+    visibility: hidden;
+  }
+   
+}
