@@ -1,8 +1,6 @@
 .nav li {
   display: flex;
   align-content: center;
-  position: sticky;
-  top: 0;
   /* justify-content: space-evenly; */
   }
   
@@ -24,7 +22,11 @@
     color: #b01313;
     background-color: rgb(201, 203, 219);
   }
-
+ 
+  header {
+    position: sticky;
+    top: 0;
+  }
 
 
   /* @media only screen and (min-width: 800px) {
