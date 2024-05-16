@@ -1,6 +1,8 @@
 .nav li {
   display: flex;
   align-content: center;
+  position: sticky;
+  top: 0;
   /* justify-content: space-evenly; */
   }
   
