@@ -24,7 +24,7 @@
   }
  
   header {
-    position: sticky;
+    /* position: sticky; */
     top: 0;
     background-color: rgb(209, 232, 245);
   }
